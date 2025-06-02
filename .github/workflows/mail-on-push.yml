@@ -16,6 +16,6 @@ jobs:
           body: |
             A new push was made to ${{ github.repository }} by ${{ github.event.pusher.name }}.
             Commit message: ${{ github.event.head_commit.message }}
-          to: your-email@example.com  # Asenda oma meiliaadressiga
+          to: jaagup.pranstibel@gmail.com  # Asenda oma meiliaadressiga
           from: GitHub Actions
           content_type: text/plain
