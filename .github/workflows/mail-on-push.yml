@@ -16,6 +16,7 @@ jobs:
           body: |
             A new push was made to ${{ github.repository }} by ${{ github.event.pusher.name }}.
             Commit message: ${{ github.event.head_commit.message }}
-          to: juri.vaitmaa@gmail.com
+          to: jyri.vaitmaa@tthk.ee
           from: GitHub Actions
           content_type: text/plain
+
